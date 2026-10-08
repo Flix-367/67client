@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven { name = "Fabric"; url = "https://maven.fabricmc.net/" }
+        maven { name = "Meteor"; url = "https://maven.meteordev.org/releases" }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = "67client"
